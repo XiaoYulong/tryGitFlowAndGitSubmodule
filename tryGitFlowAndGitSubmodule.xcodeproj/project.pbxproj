@@ -10,7 +10,6 @@
 		386CD1301B7BA41300E8D4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 386CD12F1B7BA41300E8D4E2 /* main.m */; };
 		386CD1331B7BA41300E8D4E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386CD1321B7BA41300E8D4E2 /* AppDelegate.m */; };
 		386CD1361B7BA41300E8D4E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386CD1351B7BA41300E8D4E2 /* ViewController.m */; };
-		386CD1391B7BA41300E8D4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386CD1371B7BA41300E8D4E2 /* Main.storyboard */; };
 		386CD13B1B7BA41300E8D4E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386CD13A1B7BA41300E8D4E2 /* Images.xcassets */; };
 		386CD13E1B7BA41300E8D4E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386CD13C1B7BA41300E8D4E2 /* LaunchScreen.xib */; };
 		386CD14A1B7BA41300E8D4E2 /* tryGitFlowAndGitSubmoduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386CD1491B7BA41300E8D4E2 /* tryGitFlowAndGitSubmoduleTests.m */; };
@@ -34,7 +33,6 @@
 		386CD1321B7BA41300E8D4E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		386CD1341B7BA41300E8D4E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		386CD1351B7BA41300E8D4E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		386CD1381B7BA41300E8D4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		386CD13A1B7BA41300E8D4E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		386CD13D1B7BA41300E8D4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		386CD1431B7BA41300E8D4E2 /* tryGitFlowAndGitSubmoduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryGitFlowAndGitSubmoduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 				386CD1321B7BA41300E8D4E2 /* AppDelegate.m */,
 				386CD1341B7BA41300E8D4E2 /* ViewController.h */,
 				386CD1351B7BA41300E8D4E2 /* ViewController.m */,
-				386CD1371B7BA41300E8D4E2 /* Main.storyboard */,
 				386CD13A1B7BA41300E8D4E2 /* Images.xcassets */,
 				386CD13C1B7BA41300E8D4E2 /* LaunchScreen.xib */,
 				386CD12D1B7BA41300E8D4E2 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386CD1391B7BA41300E8D4E2 /* Main.storyboard in Resources */,
 				386CD13E1B7BA41300E8D4E2 /* LaunchScreen.xib in Resources */,
 				386CD13B1B7BA41300E8D4E2 /* Images.xcassets in Resources */,
 			);
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		386CD1371B7BA41300E8D4E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				386CD1381B7BA41300E8D4E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		386CD13C1B7BA41300E8D4E2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +404,7 @@
 				386CD14F1B7BA41300E8D4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386CD1501B7BA41300E8D4E2 /* Build configuration list for PBXNativeTarget "tryGitFlowAndGitSubmoduleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +413,7 @@
 				386CD1521B7BA41300E8D4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
